@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/UPICKHANDYMAN/static/css/main.6d49d3c9.css",
+    "main.js": "/UPICKHANDYMAN/static/js/main.89ea1bf2.js",
+    "static/media/portfolio-2.webp": "/UPICKHANDYMAN/static/media/portfolio-2.aa30678ccbcffa3bc8eb.webp",
+    "static/media/portfolio-3.webp": "/UPICKHANDYMAN/static/media/portfolio-3.2240e4aefe30ab1a551b.webp",
+    "static/media/portfolio-1.webp": "/UPICKHANDYMAN/static/media/portfolio-1.eb3eef6aece4a12f133b.webp",
+    "static/media/portfolio-4.webp": "/UPICKHANDYMAN/static/media/portfolio-4.699700d73476c141c05e.webp",
+    "static/media/upick-header.webp": "/UPICKHANDYMAN/static/media/upick-header.9c55a9858f4a457fc4d9.webp",
+    "static/media/service-2.webp": "/UPICKHANDYMAN/static/media/service-2.c67604a4dd752145f415.webp",
+    "static/media/upick-logo.webp": "/UPICKHANDYMAN/static/media/upick-logo.173cbcdbfd304a29fcaa.webp",
+    "static/media/service-1.webp": "/UPICKHANDYMAN/static/media/service-1.5d31ea4afef3723199a1.webp",
+    "static/media/service-3.webp": "/UPICKHANDYMAN/static/media/service-3.6b3184d2dd1876e51335.webp",
+    "index.html": "/UPICKHANDYMAN/index.html",
+    "main.6d49d3c9.css.map": "/UPICKHANDYMAN/static/css/main.6d49d3c9.css.map",
+    "main.89ea1bf2.js.map": "/UPICKHANDYMAN/static/js/main.89ea1bf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d49d3c9.css",
+    "static/js/main.89ea1bf2.js"
+  ]
+}
