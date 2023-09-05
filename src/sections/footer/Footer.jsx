@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
         <div className="container footer__container">
             <article className='footer__column'>
-            <a href="#"><img className='nav__logo-footer' src={Logo} aria-hidden="true" loading="lazy" decoding="async" width='125px' height='85px' alt="upick handyman llc"/></a>
+            <a href="#" aria-label='Go to home page'><img className='nav__logo-footer' src={Logo} aria-hidden="true" loading="lazy" decoding="async" width='125px' height='85px' alt="upick handyman llc"/></a>
                 {/* Icons here as well */}
             </article>
             <article className='footer__column'>

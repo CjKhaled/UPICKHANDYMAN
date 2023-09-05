@@ -22,11 +22,11 @@ function Navbar() {
              <li><a href="#services" aria-label='Go to services page'>Services</a></li>
              <li><a href="#portfolio" aria-label='Go to portfolio page'>Portfolio</a></li>
              <li><a href="#contact" aria-label='Go to contact page'>Contact</a></li>
-             <button className='nav-btn nav-close-btn' aria-label='button to close'>
+             <button className='nav-btn nav-close-btn' aria-label='close navigation menu'>
              <FaTimes/>
            </button>
            </ul>
-           <button className="nav-btn" onClick={showNavbar}>
+           <button className="nav-btn" onClick={showNavbar} aria-label='navigation menu'>
                <FaBars/>
            </button>
        </div>

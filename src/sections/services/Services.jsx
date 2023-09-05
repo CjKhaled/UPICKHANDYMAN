@@ -29,7 +29,7 @@ const Services = () => {
             </article>
             <div className="second-card">
                 <article className='service__card'>
-                    <img src={Service2} alt="interior Painting" className='service-image' aria-hidden="true" loading="lazy" decoding="async"/>
+                    <img src={Service2} alt="interior Painting" className='service-image' aria-hidden="true" loading="lazy" decoding="async" width={'120px'} height={'120px'}/>
                     <h2>Interior Painting</h2>
                     <p>We provide high-quality service with an impeccable finish, to make sure you will have a painting service you'll love. No matter what job you throw at us, UPICK will always tackle it with an eye for detail.</p>
                     <a href="#portfolio" aria-label='Go to portfolio page'>
@@ -38,7 +38,7 @@ const Services = () => {
                 </article>
             </div>
             <article className='service__card'>
-                <img src={Service3} alt="exterior painting" className='service-image' aria-hidden="true" loading="lazy" decoding="async"/>
+                <img src={Service3} alt="exterior painting" className='service-image' aria-hidden="true" loading="lazy" decoding="async" width={'120px'} height={'120px'}/>
                 <h2>Other Painting</h2>
                 <p>We powerwash and do drywall repair to ensure our jobs are pristine! Whether it's residential painting or commercial painting, we've got you covered!</p>
                 <a href="#portfolio" aria-label='Go to portfolio page'>
