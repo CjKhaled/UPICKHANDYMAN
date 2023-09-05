@@ -1,0 +1,156 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 887.49px;
+    background: url('../assets/upick-header.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header__content {
+    margin-top: 315px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.header__content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.header__content p {
+    color: #FFFFFF
+}
+
+.form__box {
+    height: 482px;
+    max-width: 410px;
+    background-color: #ffffff33;
+    border-radius: 28.35px;
+    border: 0.95px solid;
+    margin-top: 194.95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__box h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 45.95px;
+}
+
+.header__content .quick__edit {
+    font-weight: 400;
+    color: #E2A53D;
+}
+
+.form__box p {
+    margin-top: 7.82px;
+    color:#ffffff;
+
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+}
+
+.form__content label {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.form__content input {
+    background-color: #ffffff;
+    border-radius: 28.35px;
+    height: 34px;
+    width: 312px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+    text-indent: 1rem;
+}
+
+.form__box .btn {
+    margin-top: 45px;
+}
+
+/* When people are on tablets */
+@media screen and (max-width: 1600px) {
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .header__content {
+        margin-top: 120px;
+        gap: 30px;
+    }
+
+    .header__content h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__content .btn {
+        display: none;
+    }
+
+    .form__box {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .form__box label {
+        text-align: left;
+    }
+
+    .btn {
+        margin-top: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 987px;
+    }
+    
+    .header__content {
+        text-align: center;
+        gap: 10px;
+        margin-top: 130px;
+    }
+    
+    .header__content h1 {
+        font-size: 36px;
+    }
+
+    .form__box {
+        padding: 0.5rem;
+    }
+
+    .btn {
+        margin-top: 5px;
+    }
+    .header__content .quick__edit {
+        font-weight: 400;
+        font-size: 18px; 
+    }
+    
+}

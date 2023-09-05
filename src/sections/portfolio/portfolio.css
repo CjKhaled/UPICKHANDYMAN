@@ -1,0 +1,32 @@
+.portfolio__content {
+    text-align: center;
+}
+
+.portfolio__content h1 {
+    margin-bottom: 5px;
+}
+
+.portfolio__content p {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.portfolio__pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px;
+}
+
+.portfolio-picture {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio__pictures {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+}
